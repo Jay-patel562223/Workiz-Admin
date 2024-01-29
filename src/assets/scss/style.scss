@@ -1,0 +1,101 @@
+@import './theme_color.scss';
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+// color code
+
+
+body{
+    font-family: 'Outfit', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.sidebar{
+    .sub-menu-lists{
+       .pl-25{
+           padding-left: 25px;
+         }
+   } 
+}
+a{
+    text-decoration: none;
+}
+::-moz-selection { /* Code for Firefox */
+    color: $white;
+    background: $primary-color;
+  }
+  
+  ::selection {
+    color: $white;
+    background: $primary-color;
+  }
+.btn-primary{
+    background-color: $primary-color !important;
+    color: $white !important;
+    border-color: $primary-color !important;
+}
+.btn:hover{
+    border-color:  $primary-color !important;
+}
+.btn-secondary{
+    background-color: $secondary !important;
+    color: $white !important;
+    border-color: $secondary !important;
+}
+.text-bg-primary{
+    color: $white !important;
+    background-color: $primary-color !important;
+}
+.btn-primary-light{
+    background-color: $light-color;
+    color: $white;
+    border-color: $light-color;
+}
+.btn-secondary-light{
+    background-color: $light-secondary !important;
+    color: $white !important;
+    border-color: $light-secondary !important;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        width: 100%;
+        max-width: 750px;
+        height: auto;
+    }
+}
+
+.action-button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+  }
+
+  .userdescription{
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+
+  }
+  
+  .read-more-btn{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 3px;
+  }
+  

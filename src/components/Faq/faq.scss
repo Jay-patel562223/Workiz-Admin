@@ -1,0 +1,110 @@
+@import '../../assets/scss/theme_color.scss';
+.faq-text-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+    .title{
+        color: #333;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: unset;
+        line-height: 25px;
+    }
+    .heading{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52px;
+        color: #333;
+    }
+    .description{
+        font-size: 22px;
+        line-height: 32px;
+        color: #333;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+}
+
+.faq-card{
+    padding: 20px;
+    border-radius: 8px;
+    border: unset;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 30px;
+  .faq-icon{
+    width: 45px;
+    height: 45px;
+    background-color: $primary-color;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    svg{
+        font-size: 18px;
+         color: $white;
+    }
+  }
+  .card-title{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #333;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: #333;
+    font-weight: 500;
+}
+.delete-icon{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background-color: $light-secondary;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    cursor: pointer;
+    img{
+        width: 25px;
+        height: 25px;
+    }
+}
+.edit-icon{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background-color: $light-color;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    cursor: pointer;
+    img{
+        width: 25px;
+        height: 25px;
+    }
+}
+.faq-icon-wrapper{
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+   .faq-action{
+        display: flex;
+        gap: 0 15px;
+   }
+}
+
+}
+
+.btn-wrapper{
+   text-align: end;
+}

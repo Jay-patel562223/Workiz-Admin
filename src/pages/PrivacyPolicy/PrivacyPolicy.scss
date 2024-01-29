@@ -1,0 +1,75 @@
+@import  '../../assets/scss/theme_color.scss';
+.policy-heading{
+    font-size: 32px;
+    line-height: 42px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px
+}
+.update-title{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+}
+.top-para-text{
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.policy-card{   
+    border: unset;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+    .policy-inner-body{
+        padding: 25px;
+        h3{
+            font-size: 25px;
+            line-height: 32px;
+            color: #333;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+    }
+}
+.policy-listing{
+    .p-ul{
+        padding: 0px;
+        list-style-type: none;
+    }
+    li{
+        margin-bottom: 15px;
+        .tick-icon{
+            width: 23px;
+            height: 23px;
+            font-size: 15px;
+            color: #fff;
+            background-color: #6750a4;
+            font-weight: 500;
+            border-radius: 100%;
+            line-height: 23px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.policy-bt{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 30px;
+}
+
+.action-wrapper{
+   display: flex;
+   justify-content: flex-end;
+   gap: 0 12px;
+}
+.btn-wrapper{
+  text-align: end;
+}

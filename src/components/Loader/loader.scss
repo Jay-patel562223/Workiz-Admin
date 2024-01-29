@@ -1,0 +1,10 @@
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .loadingGif{
+        width: 125px;
+        height: auto;
+    }
+}

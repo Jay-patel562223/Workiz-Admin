@@ -1,0 +1,15 @@
+.icon-style {
+    display: flex;
+    gap: 0 4px;
+    span{
+        color: #6750a4;
+        display: block;
+        svg{
+            font-size: 22px;
+
+        }
+    }
+    .half-icon{
+        font-size: 18px;
+     }
+}

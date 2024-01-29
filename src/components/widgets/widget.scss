@@ -1,0 +1,83 @@
+@import '../../assets/scss/theme_color.scss';
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 20px;
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      color: rgb(160, 160, 160);
+    }
+
+    .counter {
+      font-size: 28px;
+      font-weight: 300;
+      color: black;
+    }
+
+    .link {
+      width: max-content;
+      font-size: 12px;
+      border-bottom: 1px solid gray;
+      cursor: pointer;
+    }
+
+    .icon {
+      font-size: 18px;
+      padding: 5px;
+      border-radius: 5px;
+      align-self: flex-end;
+    }
+  }
+}
+
+.custom-card{
+  margin-bottom: 30px;
+  .card-details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0 12px;
+    svg{
+      font-size: 46px;
+      width: 46px;
+      height: 46px;
+      line-height: 46px;
+      background-color: $primary-color;
+      border-radius: 8px;
+      padding: 6px;
+      color: $white;
+    }
+  }
+  a{
+    color: #333;
+    text-transform: capitalize;
+  }
+ .card-at{
+  text-align: end;
+  .card-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .card-text{
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+ 
+ .card-body{
+   padding: 20px;
+ }
+}

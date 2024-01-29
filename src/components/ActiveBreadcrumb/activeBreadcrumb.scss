@@ -1,0 +1,15 @@
+@import "../../assets/scss/theme_color.scss";
+.breadcrumb {
+  margin-bottom: 0px;
+  .active {
+    color: $primary-color;
+    font-weight: 700;
+  }
+}
+.custom-breadCrumb{
+  .breadcrumb-item{
+      a{
+        color: $secondary;
+      }
+  }
+}

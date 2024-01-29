@@ -1,0 +1,77 @@
+@import '../../assets/scss/theme_color.scss';
+.view-heading-notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.notification-wrapper-Imagetext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    img{
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+        line-height: 55px;
+        border: 1px solid #333;
+        object-fit: contain;
+    }
+}
+
+
+.custom-dropzone{
+    .inner-dropzone{
+        display: flex;
+        width: 100%;
+        height: 125px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 1px dashed gray;
+        border-radius: 5px;
+    }
+    .image-previews{
+        margin: 15px 0px;
+     img{
+        width: auto;
+        max-width: 125px;
+        height: auto;
+     }
+    }
+}
+
+.notification-card{
+    border: unset;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 35px;
+    .card-body{
+        padding: 20px;
+    }
+    .notification-wrapper{
+        .notification-inner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            img{
+                width: 100%;
+                max-width: 150px;
+                height: auto;
+                border-radius: 12px;  
+            }
+            h5{
+                text-transform: capitalize;
+                font-size: 22px;
+                line-height: 36px;
+                color: #333;
+            }
+        }
+
+    }
+
+}
+

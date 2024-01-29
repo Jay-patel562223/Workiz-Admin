@@ -1,0 +1,13 @@
+@import "../../assets/scss/theme_color.scss";
+
+.appInfo-text-wrapper{
+    .same-txt{
+        display: flex;
+        white-space: break-spaces;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+        overflow: hidden;
+    
+    }
+}

@@ -1,0 +1,58 @@
+@import '../../assets/scss/theme_color.scss';
+.offsidebar-logo {
+  width: 180px;
+  height: auto;
+}
+
+.offcanvas-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  img {
+    width: 125px;
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #333;
+  }
+}
+
+.inner-card-data {
+  background-color: $primary-color;
+
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+  .redirect-data {
+    display: flex;
+    align-items: center;
+    gap: 0 18px;
+    color: $white;
+    padding: 15px 25px;
+    svg {
+      font-size: 32px;
+    }
+    .text-values {
+      display: block;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+.view-feedback-data {
+  background-color: #239daa;
+}

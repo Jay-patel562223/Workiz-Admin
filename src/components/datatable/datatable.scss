@@ -1,0 +1,105 @@
+@import '../../assets/scss/theme_color.scss';
+.datatable {
+  height: 500px;
+  padding: 10px;
+  width: auto;
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+
+    .viewButton {
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: darkblue;
+      border: 1px solid rgba(0, 0, 139, 0.569);
+      cursor: pointer;
+    }
+    .edit-btn{
+      padding: 3px 10px;
+      border: 1px solid #198754;
+      border-radius: 6px;
+      color: #198754;
+    }
+
+    .deleteButton {
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: crimson;
+      border: 1px solid rgba(220, 20, 60, 0.6);
+      cursor: pointer;
+    }
+  }
+}
+.list{
+  .user-img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 4px;
+    border: 1px solid #333;
+    line-height: 32px;
+  }
+  .react-bootstrap-table-page-btns-ul{
+    display: flex;
+    justify-content: end;
+    .active>.page-link, .page-link.active{
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+  .common-tbale-btn{
+    border: unset;
+    padding: 8px 12px;
+    border-radius: 8px;
+   
+    svg{
+      font-size: 22px;
+      color: $white;
+    }
+  }
+  .viewButton{
+    background-color: #00800082;
+  }
+   .edit-btn{
+      background-color: #0066ccb3;
+      margin: 0 10px;
+    }
+    .deleteButton {
+      background-color: #ff000091;
+    }
+    .react-bootstrap-table-pagination{
+       padding-bottom: 45px;
+    }
+}
+
+.useraddress{
+  max-width: 275px;
+  width: 100%;
+  min-height: auto;
+  height: auto;
+  display: flex;
+  white-space: break-spaces;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

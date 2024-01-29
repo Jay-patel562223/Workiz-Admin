@@ -1,0 +1,65 @@
+.list {
+  // display: flex;
+  // width: auto;
+
+  .container {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: space-between;
+    gap: 20px;
+
+    .title {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 10px;
+      margin: 20px;
+      display: flex;
+
+      h1 {
+        color: gray;
+        font-size: 40px;
+        font-weight: 600;
+      }
+    }
+
+    .editContainer {
+      height: 300px;
+      overflow: scroll;
+      border: 4px solid #000;
+      border-radius: 10px;
+      margin: 8px;
+
+      .editor {
+        height: 100%;
+        border: none;
+      }
+    }
+
+    .btnContainer {
+      align-items: center;
+      justify-content: space-between;
+
+      .button {
+        border: none;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+.editContainer{
+  margin-bottom: 30px;
+  .ql-container{
+   .ql-editor{
+      min-height: 350px;
+      height: auto;
+    }
+  }
+}
+

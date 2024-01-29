@@ -1,0 +1,19 @@
+@import '../../assets/scss/theme_color.scss';
+.footer{
+    padding: 15px;
+    margin-left: 270px;
+    width: calc(100% - 270px);
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: $white;
+    margin-top: 30px;
+    .copyright-text{
+        text-align: end;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0 8px;
+        a{
+            color: $primary-color;
+        }
+    }
+}

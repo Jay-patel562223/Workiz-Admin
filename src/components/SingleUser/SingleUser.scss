@@ -1,0 +1,61 @@
+@import "../../assets/scss/theme_color.scss";
+.top-view-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 375px;
+  img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 8px;
+    line-height: 210px;
+    border: 1px solid #333;
+  }
+  h3 {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .active-sign {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 77px;
+    right: 30%;
+    border: 3px solid $white;
+  }
+  .rating {
+    ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0px;
+      gap: 0 4px;
+      li {
+        color: #6750a4;
+        font-size: 25px;
+      }
+    }
+  }
+}
+.bussiness-card {
+  display: flex;
+  gap: 0 25px;
+  margin-bottom: 20px;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 250px;
+    border-radius: 12px;
+  }
+}

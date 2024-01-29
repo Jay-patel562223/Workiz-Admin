@@ -1,0 +1,26 @@
+@import "../../assets/scss/theme_color.scss";
+
+.All-Delete-user {
+  margin-bottom: 30px;
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 1px solid #333;
+    line-height: 32px;
+  }
+
+  .react-bootstrap-table-pagination {
+    .react-bootstrap-table-pagination-list {
+      .react-bootstrap-table-page-btns-ul {
+        display: flex;
+        justify-content: end;
+        .active>.page-link, .page-link.active{
+            background-color: $primary-color;
+        }
+      }
+    }
+  }
+}
